@@ -1,0 +1,23 @@
+import turtle
+turtle.speed(0)
+d=turtle.Turtle()
+d.pencolor('green')  
+s= turtle.Screen()
+s.bgcolor('yellow')
+d.penup()
+d.goto(0,150)
+d.pendown()
+f=0
+r=0
+while True:
+    d.forward(f)
+    d.right(r)
+    
+    
+    f +=3
+    r +=1
+    
+    if f ==200:
+        break
+        
+    d.hideturtle()
